@@ -1,0 +1,47 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    width: 60%;
+}
+
+.ant-collapse-header{
+    background-color: red !important;
+}
+.daysInput{
+    width: 50px;
+    text-align: center;
+    margin-left:8px;
+    margin-right: 8px;
+}
+.days{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.icon{
+    font-size: 32px;
+    padding-right: 16px;
+}
+.footer{
+    display: flex;
+    flex:1;
+    font-size:20px;
+    font-weight: 500;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+.order{
+    display: flex;
+}
+.message{
+    color:orange;
+    font-size: 25px;
+}
+.checked{
+    padding-right: 16px;
+
+}

@@ -1,0 +1,38 @@
+.backgroundImage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../pictures/register_1_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formInfo{
+    display:flex;
+    flex-direction: column;
+    border-radius: 12px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 16px;
+}
+.header{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px 16px;
+}
+.message{
+    color: orange;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+}
+.errorMessage{
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+}
+.checked{
+    padding-right: 16px;
+}

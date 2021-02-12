@@ -1,0 +1,20 @@
+.content{
+    display: flex;
+    height: 80%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+.accepted{
+    font-weight: 500;
+    background-color: #FEE8A0;
+}
+.rejected{
+    background-color: 	#F0F0F0;
+    color: 	#888888 !important;
+    font-weight: 500;
+}
+.neutral{
+    font-weight: 500;
+    background-color: white;
+}

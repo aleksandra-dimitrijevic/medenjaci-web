@@ -1,0 +1,22 @@
+.imageWrapper{
+    width: 15vw;
+    height: 15vw;
+    background-image: url("../../../../pictures/whiteFrame.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageHoney{
+    height: 80%;
+    width: 56%;
+    background-size: cover;
+    cursor: pointer;
+}
+.product{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    flex-direction: column;
+}

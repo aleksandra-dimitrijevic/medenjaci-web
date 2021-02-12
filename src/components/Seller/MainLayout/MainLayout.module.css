@@ -1,0 +1,22 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.backgroundImage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image: url("../../../pictures/homeWtihLogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: top;*/
+}
+.content{
+    display: flex;
+    height: 80%;
+    width: 90%;
+    justify-content: center;
+}
